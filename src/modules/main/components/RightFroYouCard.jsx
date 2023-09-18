@@ -6,7 +6,6 @@ function RightFroYouCard({images}) {
     <div className='FQ-Right-For-You-card'
     data-aos="flip-right"
     data-aos-easing="ease-in-back"
-    data-aos-delay="300"
     >
                 <img src={images} alt='class'/>
                 <div className='lesson-stars'>

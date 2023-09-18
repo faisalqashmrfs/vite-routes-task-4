@@ -19,6 +19,7 @@
 }
 .FQ-Tomorrows .Fq-opacity-back2
 {
+    width: 100% !important;
     width: max-content;
     position: absolute;
     top: 50%;
@@ -27,6 +28,7 @@
     transform: translate( -50% , -50%);
     text-align: center;
     color: white;
+    overflow-y: hidden !important;
 }
 .FQ-Tomorrows .Fq-opacity-back2 span
 {

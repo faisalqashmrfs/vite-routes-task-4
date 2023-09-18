@@ -8,7 +8,7 @@ function Acardion() {
     <div className='fq-photo-right' data-aos="fade-right">
         <img src={Fimg} alt='' />
     </div>
-    <div className='fq-acardion-left' data-aos="fade-left">
+    <div className='fq-acardion-left'>
         <h2>Why Choose Us</h2>
         <p>Far far away , behind the word mountains , far form the countries Vokalia and Consonantia , there the blind texts.</p>
         <div class="accordion" id="accordionPanelsStayOpenExample">
