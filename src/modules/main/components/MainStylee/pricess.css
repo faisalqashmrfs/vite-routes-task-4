@@ -1,4 +1,5 @@
 .pricing
 {
     margin: 20vh 0;
+    overflow-y: hidden !important;
 }

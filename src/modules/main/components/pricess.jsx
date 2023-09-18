@@ -14,7 +14,7 @@ function Pricess() {
         data-aos-easing="ease-in-back"
         data-aos-delay="300"
         >
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden" data-aos="fade-up-right">
+          <div class="col-lg-4 col-md-6 col-sm-10 mb-5 hidden222 " data-aos="fade-up-right">
             <div class="card text-center p-3  shadow m-auto" style={{width: '18rem'}}>
               <div class="card-body">
                 <h4 class="card-title text-primary mb-3">Starter</h4>
@@ -27,7 +27,7 @@ function Pricess() {
               <div class="overlay"></div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden" data-aos="fade-up">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden222" data-aos="fade-up">
             <div class="card text-center p-3  shadow m-auto" style={{width: '18rem'}}>
               <div class="card-body">
                 <h4 class="card-title text-primary mb-3">Bussines</h4>
@@ -39,7 +39,7 @@ function Pricess() {
               <div class="overlay"></div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden" data-aos="fade-up-left">
+          <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden222" data-aos="fade-up-left">
             <div class="card text-center p-3 m-auto  shadow" style={{width: '18rem'}}>
               <div class="card-body">
                 <h4 class="card-title text-primary mb-3">Preufiom</h4>

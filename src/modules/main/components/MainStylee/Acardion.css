@@ -6,6 +6,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 3rem;
+    overflow-y: hidden !important;
 }
 .Acardion-fqf .fq-photo-right 
 {

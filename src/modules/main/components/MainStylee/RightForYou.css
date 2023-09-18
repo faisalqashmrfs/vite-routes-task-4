@@ -3,6 +3,7 @@
     width: 99vw;
     padding: 0 10%;
     background-color: #f3fbff;
+    overflow-y: hidden !important;
 }
 .FQ-Right-For-You .fq-title-you h2
 {

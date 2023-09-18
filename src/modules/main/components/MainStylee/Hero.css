@@ -69,14 +69,14 @@
 @media (prefers-reduced-motion){
     .hidden
     {
-        transition: none;
-    }
-    .hidden2
-    {
-        transition: none;
+        transition: none !important;
     }
 }
-
+@media only screen and (max-width: 600px) {
+    .aos-animate {
+      transition: none !important;
+    }
+  }
 
 
 
