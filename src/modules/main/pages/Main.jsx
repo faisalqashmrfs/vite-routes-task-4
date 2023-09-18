@@ -11,7 +11,6 @@ import AboutUsHome from './../components/AboutUsHome';
 import Pricess from './../components/pricess';
 import Carousel from './../components/carousel';
 import Acardion from './../components/Acardion';
-import NewSchool from '../components/newSchool';
 
 
 
@@ -25,7 +24,6 @@ function Main () {
     <RightForYou />
     <Tomorrows />
     <AboutUsHome />
-    <NewSchool/>
     <Pricess />
     <Carousel />
     <Acardion />
