@@ -1,6 +1,6 @@
 .FQ-Hero
 {
-    width: 100vw;
+    width: 101vw !important;
     height: 100vh;
     background-image: url(./../../assets/img/background-home.jpg);
     background-size: cover;
