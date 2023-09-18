@@ -3,7 +3,11 @@ import './MainStylee/RightFroYouCard.css'
 
 function RightFroYouCard({images}) {
   return (
-    <div className='FQ-Right-For-You-card'data-aos="flip-right">
+    <div className='FQ-Right-For-You-card'
+    data-aos="flip-right"
+    data-aos-easing="ease-in-back"
+    data-aos-delay="300"
+    >
                 <img src={images} alt='class'/>
                 <div className='lesson-stars'>
                     <div className='lesson-blue'> <span>43 lesson</span></div>

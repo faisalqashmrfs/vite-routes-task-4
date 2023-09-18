@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom'; 
 import './NavStyle.css';
 
 function Navber() {
@@ -52,9 +53,9 @@ function Navber() {
           <div>
               <span>Learner</span>
               <ul>
-                  <a href='/'><li>Home</li></a>
-                  <a href='aboutUs'><li>About Us</li></a>
-                  <a href='News'><li>News</li></a>
+                  <Link className='link' to="/vite-routes-task-4/">Home</Link>
+                  <Link className='link' to="/vite-routes-task-4/AboutUs">About Us</Link>
+                  <Link className='link' to="/vite-routes-task-4/News">News</Link>
               </ul>
               <button>ENROLL NOW</button>
           </div>

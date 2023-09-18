@@ -2,7 +2,7 @@ import AboutUs from './../../AboutUs/pages/AboutUs'
 
 export const AboutRoutes = [
     {
-        path : "AboutUs" ,
+        path : "/vite-routes-task-4/AboutUs" ,
         element : <AboutUs />,
     },
 ]

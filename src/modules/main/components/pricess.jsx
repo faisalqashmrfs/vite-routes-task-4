@@ -10,7 +10,10 @@ function Pricess() {
           sit amet consectetus Et atque quas adipisicing elit. Et atque quas
           i assumenda poss </p>
 
-        <div class="row mt-5">
+        <div class="row mt-5"
+        data-aos-easing="ease-in-back"
+        data-aos-delay="300"
+        >
           <div class="col-lg-4 col-md-6 col-sm-12 mb-5 hidden" data-aos="fade-up-right">
             <div class="card text-center p-3  shadow m-auto" style={{width: '18rem'}}>
               <div class="card-body">

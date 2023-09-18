@@ -9,7 +9,7 @@ import { NewsRoutes } from '../modules/News/routes/NewsRoutes';
     element : <App />,
     children: [
         {
-            path : "" ,
+            path : "/vite-routes-task-4/" ,
             element : <Main />,
         },
         ...AboutRoutes,

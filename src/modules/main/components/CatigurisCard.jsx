@@ -5,6 +5,8 @@ function CatigurisCard({ title , descrip ,props}) {
   return (
     <div className='one-card'
     data-aos="flip-right"
+    data-aos-easing="ease-in-back"
+     data-aos-delay="300"
     >
                 <div className='left-side'>
                     <div>

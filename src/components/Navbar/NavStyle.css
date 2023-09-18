@@ -86,9 +86,16 @@ background-color: black;
     height: 100%;
     
 }
-.FQ-nav2 > div a
+.FQ-nav2 > div .link
 {
     text-decoration: none;
+    color: rgb(196, 196, 196);
+    
+}
+.FQ-nav2 > div .link:hover
+{
+    text-decoration: none;
+    color: white;
     
 }
 .FQ-nav2 > div span
@@ -119,7 +126,14 @@ background-color: black;
     color: white;
     background-color: rgb(0, 183, 255);
     font-weight: 600;
+    transition: .7s;
     
+}
+.FQ-nav2 button:hover
+{
+    color: rgb(0, 183, 255);
+    background-color: white;
+    transition: .7s;
 }
 .FQ-nav11
 {
