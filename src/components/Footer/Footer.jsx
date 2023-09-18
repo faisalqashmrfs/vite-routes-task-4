@@ -4,7 +4,7 @@ import Fimg from './../../assets/img/emile-perron-xrVDYZRGdw4-unsplash.jpg'
 
 function Footer() {
   return (
-    <footer class="bg-primary">
+    <footer class="bg-primary" >
     <div class="container pt-5 text-light">
       <div class="row ">
         <div class="col-lg-3 mb-4 text-sm-center  text-md-left">

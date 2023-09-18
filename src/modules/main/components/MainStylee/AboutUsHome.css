@@ -173,8 +173,12 @@
     }
     .AboutUsHome .container .left-fq-desc .fq-buttons
     {
+        display: flex;
+        flex-direction: column;
         width: max-content;
         margin: 50px auto;
+        justify-content: center;
+        align-items: center;
     }
 }
 

@@ -2,3 +2,7 @@
 {
     width: 6rem ;
 }
+.text-md-left
+{
+    text-align: center !important;
+}
