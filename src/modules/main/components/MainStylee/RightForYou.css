@@ -1,0 +1,44 @@
+.FQ-Right-For-You
+{
+    width: 99vw;
+    padding: 0 10%;
+    background-color: #f3fbff;
+}
+.FQ-Right-For-You .fq-title-you h2
+{
+    font-size: 3rem;
+    width: max-content;
+    margin: 4rem auto;
+    padding-top: 50px;
+    color: #00aeff;
+}
+.FQ-Right-For-You .fq-title-you p
+{
+    font-size: 2rem;
+    width: 60%;
+    margin: 4rem auto;
+    color: gray;
+    text-align: center;
+}
+.FQ-Right-For-You .all-cardf-fq
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 3rem;
+    margin: 5rem 0;
+}
+
+@media (max-width:950px)
+{
+    .FQ-Right-For-You .fq-title-you h2
+{
+    font-size: 1.4rem;
+}
+.FQ-Right-For-You .fq-title-you p
+{
+    font-size: 1.2rem;
+}
+}

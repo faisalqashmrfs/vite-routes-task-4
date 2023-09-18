@@ -1,0 +1,58 @@
+
+.FQ-Hero
+{
+    width: 99vw;
+    height: 100vh;
+    background-image: url(../../assets/img/emile-perron-xrVDYZRGdw4-unsplash.jpg);
+    background-size: cover;
+    /* position: relative !important; */
+}
+.FQ-Hero .Fq-opacity-back
+{
+    width: 100% !important;
+    height: 100%;
+    background-color: rgba(0, 84, 194, 0.596);
+    opacity: 0.6;
+    display: flex;
+    justify-content: center;
+    overflow: hidden !important;
+}
+.FQ-Hero .Fq-opacity-back2
+{
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate( -50% , -50%);
+}
+.FQ-Hero .Fq-opacity-back2
+{
+    text-align: center;
+    color: white;
+}
+.FQ-Hero .Fq-opacity-back2 span
+{
+    font-size: 2rem;
+    margin: 2.5rem 0;
+    font-weight: 500;
+    color: white;
+}
+.FQ-Hero .Fq-opacity-back2 h1
+{
+    font-size: 1.5rem;
+    margin: 2.5rem 0;
+    font-weight: 500;
+    color: white;
+    line-height: 30px;
+}
+.FQ-Hero .Fq-opacity-back2 button
+{
+    font-size: 1rem;
+    padding: .6rem 1.2rem;
+    border-radius: 5rem;
+    border: none;
+    color: white;
+    background-color: rgb(0, 183, 255);
+    font-weight: 600;
+}

@@ -1,0 +1,100 @@
+.FQ-catig .all-cards .one-card
+{
+    width: 300px;
+    display: flex;
+    background-color: rgb(212, 243, 255);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+.FQ-catig .all-cards .one-card .left-side
+{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FQ-catig .all-cards .one-card .left-side i
+{
+    font-size: 2rem;
+}
+.FQ-catig .all-cards .one-card .left-side > div
+{
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .2rem;
+}
+.FQ-catig .all-cards .one-card .right-side p
+{
+    padding: .4rem;
+    font-size: 1.5rem;
+}
+.FQ-catig .all-cards .one-card .right-side span
+{
+    padding: .4rem;
+    color: gray;
+}
+
+/* //// */
+
+
+.ClassEducation-fq .all-cards .one-card
+{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: .2rem;
+    box-shadow: 0px 0px 1px .1px gray;
+}
+.ClassEducation-fq .all-cards .one-card .left-side
+{
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ClassEducation-fq .all-cards .one-card .left-side i
+{
+    font-size: 3rem;
+}
+.ClassEducation-fq .all-cards .one-card .left-side > div
+{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid rgb(187, 187, 255);
+    text-align: center;
+    padding: 2.5rem;
+    margin: 1rem !important;
+}
+.ClassEducation-fq .all-cards .one-card .right-side 
+{
+    padding: .4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.ClassEducation-fq .all-cards .one-card .right-side p
+{
+    padding: .4rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(51, 51, 255);
+}
+.ClassEducation-fq .all-cards .one-card .right-side span
+{
+    padding: .4rem;
+    color: gray;
+    font-size: 1.3rem;
+}

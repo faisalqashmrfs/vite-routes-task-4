@@ -1,0 +1,22 @@
+.Acardion-fqf
+{
+    width: 100%;
+    padding: 20vh 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3rem;
+}
+.Acardion-fqf .fq-photo-right 
+{
+    width: 600px;
+}
+.Acardion-fqf .fq-photo-right img
+{
+    width: 100%;
+    height: 400px;
+}
+.Acardion-fqf .fq-acardion-left
+{
+    width: 700px;
+}

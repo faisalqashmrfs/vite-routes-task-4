@@ -1,0 +1,10 @@
+.---cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 8rem;
+    justify-content: center;
+    padding: 5rem;
+    background-color: #e9f6fc;
+}

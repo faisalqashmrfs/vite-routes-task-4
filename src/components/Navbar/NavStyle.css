@@ -1,0 +1,178 @@
+.FQ-nav1
+{
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 0 10%;
+    z-index: 12345;
+}
+.FQ-nav1new
+{
+background-color: black;
+}
+.FQ-nav1 .Fq-3infoLeft 
+{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+
+}
+.FQ-nav1 .Fq-3infoLeft .ch1
+{
+    display: flex;
+    width: 152px;
+    justify-content: space-between;
+    align-items: center;
+}
+.FQ-nav1 .Fq-3infoLeft .ch2
+{
+    display: flex;
+    width: 125px;
+    justify-content: space-between;
+    align-items: center;
+}
+.FQ-nav1 .Fq-3infoLeft .ch3
+{
+    display: flex;
+    width: 172px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FQ-nav1 .Fq-2infright{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.FQ-nav1 .Fq-2infright .ch1
+{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.FQ-nav1 .Fq-2infright .ch2
+{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.FQ-nav2
+{
+    position: fixed;
+    top: 4rem;
+    width: 100vw;
+    height: 4rem;
+    padding: 0 10%;
+    z-index: 12345;
+}
+.FQ-nav2 > div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+.FQ-nav2 > div a
+{
+    text-decoration: none;
+    
+}
+.FQ-nav2 > div span
+{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+}
+.FQ-nav2 > div ul
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 30%;
+    margin: 0;
+}
+.FQ-nav2 > div ul li
+{
+    color: rgb(224, 222, 222);
+}
+.FQ-nav2 button 
+{
+    font-size: 1rem;
+    padding: .6rem 1.2rem;
+    border-radius: 5rem;
+    border: none;
+    color: white;
+    background-color: rgb(0, 183, 255);
+    font-weight: 600;
+    
+}
+.FQ-nav11
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 4rem;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #fff;
+    padding: 0 10%;
+    z-index: 12345;
+}
+.FQ-nav11 .Fq-3infoLeft 
+{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.FQ-nav11 .Fq-2infright{
+    width: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+@media (max-width:900px){
+    .FQ-nav1
+    {
+        display: none;
+    }
+    .FQ-nav2
+    {
+        padding: 0 20px;
+    }
+    .FQ-nav2 > div ul
+    {
+        width: 220px;
+    }
+    .FQ-nav2 > div span
+    {
+        font-size: 1.2rem;
+    }
+    .FQ-nav2 button 
+    {
+        display: none;
+    }
+    .FQ-nav11
+    {
+        display: flex;
+    }
+}

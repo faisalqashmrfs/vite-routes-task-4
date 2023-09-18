@@ -1,0 +1,27 @@
+.width-hight-imgFq
+{
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(197, 197, 197);
+}
+.width-hight-imgFq h2
+{
+    color: blue;
+    font-size: 3rem;
+    width: max-content;
+    margin: 40px auto;
+}
+.width-hight-imgFq h4
+{
+    width: 80% !important;
+    margin: auto;
+    text-align: center;
+    color: rgb(70, 69, 69);
+}
+.width-hight-imgFq img
+{
+    width: 300px;
+    margin: 7vh auto;
+    height: 300px;
+    border-radius: 50%;
+}
